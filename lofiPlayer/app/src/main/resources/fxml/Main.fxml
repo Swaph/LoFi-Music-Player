@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.lofiPlayer.MainController">
+
+    <!-- Left Section -->
+    <left>
+        <VBox spacing="10" style="-fx-background-color: #2B2B2B; -fx-padding: 10;">
+            <TextField fx:id="searchFieldResults" promptText="Search..." />
+            <Button text="Search" style="-fx-text-fill: white;" onAction="#searchSongs" />
+        </VBox>
+    </left>
+
+    <!-- Center Section -->
+    <center>
+        <VBox spacing="10" alignment="CENTER" style="-fx-padding: 20;">
+            <ImageView fx:id="albumArt" fitHeight="200" fitWidth="200" />
+            <Text fx:id="songTitle" text="Song Title" style="-fx-font-size: 24;" />
+            <Text fx:id="songArtist" text="Artist" style="-fx-font-size: 18;" />
+            <Button fx:id="playPauseButton" text="Play/Pause" onAction="#togglePlayPause" />
+        </VBox>
+    </center>
+
+    <!-- Right Section -->
+    <right>
+        <ListView fx:id="songListView" VBox.vgrow="ALWAYS" />
+    </right>
+
+    <!-- Bottom Section -->
+    <bottom>
+        <VBox spacing="10" style="-fx-background-color: #2B2B2B; -fx-padding: 10;">
+            <HBox spacing="10" alignment="CENTER">
+                <Text fx:id="currentTime" text="00:00" style="-fx-text-fill: white;" />
+                <Slider fx:id="progressSlider" HBox.hgrow="ALWAYS" />
+                <Text fx:id="totalTime" text="00:00" style="-fx-text-fill: white;" />
+            </HBox>
+            <HBox spacing="10" alignment="CENTER">
+                <Slider fx:id="volumeSlider" max="100" value="50" prefWidth="150" />
+            </HBox>
+        </VBox>
+    </bottom>
+</BorderPane>
