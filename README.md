@@ -1,4 +1,3 @@
-# LoFi-Music-Player
 # LoFi Music Player App
 
 ## Overview
@@ -51,27 +50,28 @@ If additional development time were available, the following features would be c
    ``git clone https://github.com/your-username/lofi-music-player.git
    cd lofi-music-player``
    
-    Set Up the Project:
-        Ensure that you have Java and Gradle installed.
-        Open the project in your preferred IDE (NetBeans, IntelliJ IDEA, Eclipse).
-        Clean and build the project using the IDE's built-in tools.
+2. **Set Up the Project:**
+   Ensure that you have Java and Gradle installed.
+   Open the project in your preferred IDE (NetBeans, IntelliJ IDEA, Eclipse).
+   Clean and build the project using the IDE's built-in tools.
 
-    Run the Application:
-        Navigate to the main class (Main.java) and run the application.
-        The app will launch, and you can start enjoying your LoFi music experience.
+3. **Run the Application:**
+   Navigate to the main class (Main.java) and run the application.
+   The app will launch, and you can start enjoying your LoFi music experience.
 
-Usage
+**Usage**
 
-    Home Screen: Explore a list of available lo-fi tracks.
-    Search: Use the search bar to find specific songs by title, artist, or album.
-    Play Music: Click on any track to start playing. The app will display the track's details, including play count.
-    Create Playlist: Organize your favorite tracks into playlists.
-    Navigation: Use the bottom navigation to switch between home, playlists, and profile sections.
+Home Screen: Explore a list of available lo-fi tracks.
+Search: Use the search bar to find specific songs by title, artist, or album.
+Play Music: Click on any track to start playing. The app will display the track's details, including play count.
+Create Playlist: Organize your favorite tracks into playlists.
+Navigation: Use the bottom navigation to switch between home, playlists, and profile sections.
 
-Contributing
+**Contributing**
 
 Contributions to the LoFi Music Player App are welcome! If you have suggestions for improvements or new features, feel free to fork the repository and submit a pull request. Please ensure that your code adheres to the project's coding standards and is well-documented.
-License
+
+**License**
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
